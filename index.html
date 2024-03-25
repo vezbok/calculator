@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+
+        <div class="display">
+            0
+        </div>
+
+        <div class="row">
+            <div class="main_operation" id="ac">AC</div>
+            <div class="main_operation">+/-</div>
+            <div class="main_operation">%</div>
+            <div class="operation" id="divide" keyCode="Slash">/</div>
+        </div>
+
+        <div class="row">
+            <div class="num" id="7" keyCode="Digit7">7</div>
+            <div class="num" id="8" keyCode="Digit8">8</div>
+            <div class="num" id="9" keyCode="Digit9">9</div>
+            <div class="operation" id="multiply">*</div>
+        </div>
+
+        <div class="row">
+            <div class="num" id="4" keyCode="Digit4">4</div>
+            <div class="num" id="5" keyCode="Digit5">5</div>
+            <div class="num" id="6" keyCode="Digit6">6</div>
+            <div class="operation" id="minus" keyCode="Minus">-</div>
+        </div>
+
+        <div class="row">
+            <div class="num" id="1" keyCode="Digit1">1</div>
+            <div class="num" id="2" keyCode="Digit2">2</div>
+            <div class="num" id="3" keyCode="Digit3">3</div>
+            <div class="operation" id="plus" >+</div>
+        </div>
+
+        <div class="row lastrow">
+            <div class="num zero" id="0" keyCode="Digit0">0</div>
+            <div class="num" id="point">.</div>
+            <div class="operation" id="equals" keyCode="Equal">=</div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
