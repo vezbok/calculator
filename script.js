@@ -148,8 +148,14 @@ function onEqualsClick() {
     currentDisplay = summary
     isLastClickEquals = true
 
+    currentDisplay = roundAccurately(currentDisplay, 10).toString()
+
     updateCurrentDisplay()
 
+}
+
+function roundAccurately(num, places) {
+    return parseFloat(Math.round(num + 'e' + places) + 'e-' + places);
 }
 
 function backspaceClick() {
